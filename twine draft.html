@@ -1,0 +1,120 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>False Match — Playable Peer Review Draft</title><style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,Segoe UI,sans-serif}*{box-sizing:border-box}body{margin:0;background:#101923;color:#eaf0f4;line-height:1.65}.wrap{max-width:780px;margin:0 auto;padding:42px 22px 70px}.top{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid #385063;padding-bottom:18px}.brand{font-size:.75rem;letter-spacing:.18em;color:#97c9db;font-weight:700}.chip{font-size:.75rem;color:#adbac7;border:1px solid #466075;border-radius:40px;padding:5px 10px}h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;margin:38px 0 6px;letter-spacing:-.035em}.sub{color:#b2c5d5;margin-bottom:30px}.body{font-size:1.07rem;white-space:pre-line}.body strong{color:#fff}.actions{margin-top:34px;display:grid;gap:12px}.choice{background:#193349;border:1px solid #46697f;color:#effaff;padding:14px 17px;text-align:left;font:inherit;border-radius:10px;cursor:pointer}.choice:hover,.choice:focus{background:#24506c;border-color:#a4dded}.footer{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}.muted{color:#a4b4c2;font-size:.83rem}.small{background:none;border:none;color:#8cc6df;text-decoration:underline;cursor:pointer;padding:0;font:inherit}.review{margin-top:36px;padding-top:18px;border-top:1px solid #385063;font-size:.85rem;color:#9cb2c1}.review p{margin:.2em 0}.back{margin-top:20px}button:focus-visible{outline:3px solid #f0c672;outline-offset:3px}</style></head><body><main class="wrap"><header class="top"><div class="brand">FALSE MATCH · INTERACTIVE STORY</div><div class="chip">Peer-review prototype</div></header><article aria-live="polite"><h1 id="title"></h1><div class="sub" id="sub"></div><div class="body" id="body"></div><nav class="actions" id="choices" aria-label="Story choices"></nav></article><div class="footer"><button class="small" id="back">← Previous passage</button><button class="small" id="restart">Restart story</button></div><section class="review"><strong>For peer reviewers</strong><p>Was the detective's choice difficult? Did any option seem obviously correct? What details or consequences should be developed further?</p><p>This is a classroom fiction inspired by documented concerns about facial recognition. It is not a recreation of a real police case.</p></section></main><tw-storydata name="False Match — Peer Review Draft" startnode="1" creator="Twine" creator-version="2.9.2" ifid="B90CFB45-2CD9-47E5-956F-1308C5AB625D" zoom="1" format="Harlowe" format-version="3.3.9" hidden><tw-passagedata pid="1" name="Start" tags="" position="250,0" size="100,100"># FALSE MATCH
+
+*Detroit-inspired fictional scenario · Peer-review draft*
+
+You are Detective Morgan Lee. At 8:12 a.m., your supervisor assigns you a robbery investigation. A clerk was threatened, and $900 was stolen from a neighborhood pharmacy. Nobody was physically injured, but the clerk is shaken.
+
+The shop&#x27;s camera captured a blurry side view of the person leaving. Your department submitted a still image to a facial recognition system. This is a fictional case inspired by real concerns about wrongful identification, including the Robert Williams case.
+
+Your task is to decide what the facial recognition lead should—and should not—justify.
+
+[[Open the match report-&gt;Match Report]]</tw-passagedata><tw-passagedata pid="2" name="Match Report" tags="" position="500,0" size="100,100"># THE MATCH REPORT
+
+*Case file 24-118*
+
+The system returns **one candidate**: **Daniel Reed**, a 32-year-old local resident. The report labels the image a “possible match.” It does not say the person in the video has been positively identified.
+
+The still image is blurry. A timestamp is visible, but the face is partly obscured by the camera angle. Your supervisor says: “We have an anxious community and a lead. Move.”
+
+What do you do first?
+
+[[Treat the match as enough to request an arrest-&gt;Arrest Request]]
+[[Review the original footage yourself-&gt;Video Review]]
+[[Ask for corroborating evidence before naming a suspect-&gt;Evidence Request]]</tw-passagedata><tw-passagedata pid="3" name="Arrest Request" tags="" position="750,0" size="100,100"># THE ARREST REQUEST
+
+*Pressure vs. due process*
+
+You prepare a request naming Daniel Reed as the suspect based mainly on the facial recognition lead. A colleague asks, “Do we have anything independent tying him to the store?”
+
+You can still stop here. The report itself explicitly says **possible match**, not proof.
+
+[[Submit the request anyway-&gt;Ending Wrongful Arrest]]
+[[Withdraw it and check the original footage-&gt;Video Review]]</tw-passagedata><tw-passagedata pid="4" name="Video Review" tags="" position="0,190" size="100,100"># LOOK CLOSER
+
+*Image quality matters*
+
+You replay the footage. The person appears to have a dark jacket and a backpack, but the face is seen only for a few seconds. The video gives you no reliable way to identify a person by itself.
+
+You notice a bus stop in the background. There might be another camera nearby, but collecting that footage takes time.
+
+Meanwhile, your supervisor asks for an update before noon.
+
+[[Ask for bus-stop footage and interview the clerk-&gt;Evidence Request]]
+[[Question Daniel Reed based on the possible match-&gt;Interview]]</tw-passagedata><tw-passagedata pid="5" name="Evidence Request" tags="" position="250,190" size="100,100"># SEARCH FOR CORROBORATION
+
+*Time and resources are limited*
+
+You request nearby footage and seek a follow-up statement from the clerk. The request might take hours. The clerk recalls that the robber had a distinctive red patch on a backpack but is unsure about the face.
+
+A supervisor warns that delaying action could allow the actual robber to disappear. A colleague counters that the wrong arrest would harm an innocent person and the investigation.
+
+Which cost do you prioritize?
+
+[[Wait for the additional footage-&gt;Waiting]]
+[[Question Daniel Reed, while acknowledging the match is unverified-&gt;Interview]]
+[[Request an arrest based on the match and clerk uncertain description-&gt;Arrest Request]]</tw-passagedata><tw-passagedata pid="6" name="Interview" tags="" position="500,190" size="100,100"># AN UNCOMFORTABLE CONVERSATION
+
+*The person behind the database image*
+
+You contact Daniel Reed and explain that investigators are following a lead. He is alarmed: he says he was at work when the robbery happened and offers to provide a schedule and coworkers who can confirm it.
+
+His employer may not respond immediately. You have no independent evidence placing him at the pharmacy.
+
+You now have a claim that could clear him—but checking it takes time.
+
+[[Check his alibi before deciding-&gt;Check Alibi]]
+[[Dismiss his explanation and seek an arrest-&gt;Ending Wrongful Arrest]]</tw-passagedata><tw-passagedata pid="7" name="Check Alibi" tags="" position="750,190" size="100,100"># THE ALIBI
+
+*A chance to correct course*
+
+Two coworkers confirm Reed was working at the time, and a time-stamped entry record supports their account. This gives you a strong reason not to treat him as the robber.
+
+The original facial recognition lead was wrong. You can investigate a different trail or close the case for now.
+
+[[Return to the camera evidence and pursue other leads-&gt;Waiting]]
+[[Release Reed from suspicion and end without a new lead-&gt;Ending Unresolved]]</tw-passagedata><tw-passagedata pid="8" name="Waiting" tags="" position="0,380" size="100,100"># THE SECOND CAMERA
+
+*Waiting has consequences*
+
+At 5:40 p.m., footage from the bus stop becomes available. It shows the robber&#x27;s backpack clearly enough to confirm the red patch. The image also shows the robber boarding a bus.
+
+The bus footage does **not** match Daniel Reed&#x27;s appearance well. You have an important correction, but still need more work to identify the person.
+
+A witness offers a description of someone who boarded the same bus. What next?
+
+[[Compare the witness account with independent evidence-&gt;Independent Lead]]
+[[Close the case rather than risk another mistaken identification-&gt;Ending Unresolved]]</tw-passagedata><tw-passagedata pid="9" name="Independent Lead" tags="" position="250,380" size="100,100"># A DIFFERENT LEAD
+
+*Technology is one piece of the puzzle*
+
+You cross-check the witness account with payment records voluntarily supplied by the business and other lawful investigative records. The evidence points to a different person, who is also connected to the stolen items.
+
+The new lead is stronger because several independent facts line up. It is not based on a facial recognition match alone.
+
+[[Document the evidence and seek an appropriate warrant-&gt;Ending Verified]]
+[[Decide the remaining uncertainty is too high to proceed-&gt;Ending Unresolved]]</tw-passagedata><tw-passagedata pid="10" name="Ending Wrongful Arrest" tags="" position="500,380" size="100,100"># ENDING 1 — FALSE MATCH
+
+*Consequence: wrongful accusation*
+
+An arrest is made primarily on the facial recognition lead. Later, investigators verify that Daniel Reed was at work when the robbery happened. The charge is dropped, but he has already been detained, missed work, and faced public suspicion.
+
+**What this ending raises:** Why did a “possible match” become treated as proof? Which decision-makers should be accountable?
+
+[[Restart and try a different approach-&gt;Start]]</tw-passagedata><tw-passagedata pid="11" name="Ending Verified" tags="" position="750,380" size="100,100"># ENDING 2 — VERIFIED LEAD
+
+*Consequence: a stronger investigation*
+
+Your team documents the independent evidence and seeks an appropriate warrant. The case moves forward with a different suspect, and Daniel Reed is cleared. The extra checks cost time and department resources, but prevented reliance on a false identification.
+
+**What this ending raises:** Can facial recognition be useful as a lead if investigators insist on verification? What safeguards should be mandatory rather than optional?
+
+[[Restart and try a different approach-&gt;Start]]</tw-passagedata><tw-passagedata pid="12" name="Ending Unresolved" tags="" position="0,570" size="100,100"># ENDING 3 — NO ARREST
+
+*Consequence: uncertainty remains*
+
+You do not arrest Daniel Reed without sufficient evidence. For now, the robbery remains unresolved. The clerk is frustrated and your supervisor is dissatisfied, but you avoid accusing someone on an uncertain technological match.
+
+**What this ending raises:** How should investigators weigh an unsolved crime against the irreversible harm of an unjust arrest?
+
+[[Restart and try a different approach-&gt;Start]]</tw-passagedata></tw-storydata><script>const story={"Start": {"title": "FALSE MATCH", "sub": "Detroit-inspired fictional scenario · Peer-review draft", "body": "You are Detective Morgan Lee. At 8:12 a.m., your supervisor assigns you a robbery investigation. A clerk was threatened, and $900 was stolen from a neighborhood pharmacy. Nobody was physically injured, but the clerk is shaken.\n\nThe shop's camera captured a blurry side view of the person leaving. Your department submitted a still image to a facial recognition system. This is a fictional case inspired by real concerns about wrongful identification, including the Robert Williams case.\n\nYour task is to decide what the facial recognition lead should—and should not—justify.", "choices": [["Open the match report", "Match Report"]]}, "Match Report": {"title": "THE MATCH REPORT", "sub": "Case file 24-118", "body": "The system returns **one candidate**: **Daniel Reed**, a 32-year-old local resident. The report labels the image a “possible match.” It does not say the person in the video has been positively identified.\n\nThe still image is blurry. A timestamp is visible, but the face is partly obscured by the camera angle. Your supervisor says: “We have an anxious community and a lead. Move.”\n\nWhat do you do first?", "choices": [["Treat the match as enough to request an arrest", "Arrest Request"], ["Review the original footage yourself", "Video Review"], ["Ask for corroborating evidence before naming a suspect", "Evidence Request"]]}, "Arrest Request": {"title": "THE ARREST REQUEST", "sub": "Pressure vs. due process", "body": "You prepare a request naming Daniel Reed as the suspect based mainly on the facial recognition lead. A colleague asks, “Do we have anything independent tying him to the store?”\n\nYou can still stop here. The report itself explicitly says **possible match**, not proof.", "choices": [["Submit the request anyway", "Ending Wrongful Arrest"], ["Withdraw it and check the original footage", "Video Review"]]}, "Video Review": {"title": "LOOK CLOSER", "sub": "Image quality matters", "body": "You replay the footage. The person appears to have a dark jacket and a backpack, but the face is seen only for a few seconds. The video gives you no reliable way to identify a person by itself.\n\nYou notice a bus stop in the background. There might be another camera nearby, but collecting that footage takes time.\n\nMeanwhile, your supervisor asks for an update before noon.", "choices": [["Ask for bus-stop footage and interview the clerk", "Evidence Request"], ["Question Daniel Reed based on the possible match", "Interview"]]}, "Evidence Request": {"title": "SEARCH FOR CORROBORATION", "sub": "Time and resources are limited", "body": "You request nearby footage and seek a follow-up statement from the clerk. The request might take hours. The clerk recalls that the robber had a distinctive red patch on a backpack but is unsure about the face.\n\nA supervisor warns that delaying action could allow the actual robber to disappear. A colleague counters that the wrong arrest would harm an innocent person and the investigation.\n\nWhich cost do you prioritize?", "choices": [["Wait for the additional footage", "Waiting"], ["Question Daniel Reed, while acknowledging the match is unverified", "Interview"], ["Request an arrest based on the match and clerk uncertain description", "Arrest Request"]]}, "Interview": {"title": "AN UNCOMFORTABLE CONVERSATION", "sub": "The person behind the database image", "body": "You contact Daniel Reed and explain that investigators are following a lead. He is alarmed: he says he was at work when the robbery happened and offers to provide a schedule and coworkers who can confirm it.\n\nHis employer may not respond immediately. You have no independent evidence placing him at the pharmacy.\n\nYou now have a claim that could clear him—but checking it takes time.", "choices": [["Check his alibi before deciding", "Check Alibi"], ["Dismiss his explanation and seek an arrest", "Ending Wrongful Arrest"]]}, "Check Alibi": {"title": "THE ALIBI", "sub": "A chance to correct course", "body": "Two coworkers confirm Reed was working at the time, and a time-stamped entry record supports their account. This gives you a strong reason not to treat him as the robber.\n\nThe original facial recognition lead was wrong. You can investigate a different trail or close the case for now.", "choices": [["Return to the camera evidence and pursue other leads", "Waiting"], ["Release Reed from suspicion and end without a new lead", "Ending Unresolved"]]}, "Waiting": {"title": "THE SECOND CAMERA", "sub": "Waiting has consequences", "body": "At 5:40 p.m., footage from the bus stop becomes available. It shows the robber's backpack clearly enough to confirm the red patch. The image also shows the robber boarding a bus.\n\nThe bus footage does **not** match Daniel Reed's appearance well. You have an important correction, but still need more work to identify the person.\n\nA witness offers a description of someone who boarded the same bus. What next?", "choices": [["Compare the witness account with independent evidence", "Independent Lead"], ["Close the case rather than risk another mistaken identification", "Ending Unresolved"]]}, "Independent Lead": {"title": "A DIFFERENT LEAD", "sub": "Technology is one piece of the puzzle", "body": "You cross-check the witness account with payment records voluntarily supplied by the business and other lawful investigative records. The evidence points to a different person, who is also connected to the stolen items.\n\nThe new lead is stronger because several independent facts line up. It is not based on a facial recognition match alone.", "choices": [["Document the evidence and seek an appropriate warrant", "Ending Verified"], ["Decide the remaining uncertainty is too high to proceed", "Ending Unresolved"]]}, "Ending Wrongful Arrest": {"title": "ENDING 1 — FALSE MATCH", "sub": "Consequence: wrongful accusation", "body": "An arrest is made primarily on the facial recognition lead. Later, investigators verify that Daniel Reed was at work when the robbery happened. The charge is dropped, but he has already been detained, missed work, and faced public suspicion.\n\n**What this ending raises:** Why did a “possible match” become treated as proof? Which decision-makers should be accountable?", "choices": [["Restart and try a different approach", "Start"]]}, "Ending Verified": {"title": "ENDING 2 — VERIFIED LEAD", "sub": "Consequence: a stronger investigation", "body": "Your team documents the independent evidence and seeks an appropriate warrant. The case moves forward with a different suspect, and Daniel Reed is cleared. The extra checks cost time and department resources, but prevented reliance on a false identification.\n\n**What this ending raises:** Can facial recognition be useful as a lead if investigators insist on verification? What safeguards should be mandatory rather than optional?", "choices": [["Restart and try a different approach", "Start"]]}, "Ending Unresolved": {"title": "ENDING 3 — NO ARREST", "sub": "Consequence: uncertainty remains", "body": "You do not arrest Daniel Reed without sufficient evidence. For now, the robbery remains unresolved. The clerk is frustrated and your supervisor is dissatisfied, but you avoid accusing someone on an uncertain technological match.\n\n**What this ending raises:** How should investigators weigh an unsolved crime against the irreversible harm of an unjust arrest?", "choices": [["Restart and try a different approach", "Start"]]}};let historyStack=[];function esc(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]||c))}function markup(s){return esc(s).replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>")}function go(k,push=true){if(push&&window.current)historyStack.push(window.current);window.current=k;const p=story[k];document.getElementById("title").textContent=p.title;document.getElementById("sub").textContent=p.sub;document.getElementById("body").innerHTML=markup(p.body);const nav=document.getElementById("choices");nav.replaceChildren();p.choices.forEach(([label,to])=>{let b=document.createElement("button");b.className="choice";b.textContent=label+"  →";b.onclick=()=>go(to);nav.append(b)});document.getElementById("back").disabled=!historyStack.length;window.scrollTo(0,0)}document.getElementById("restart").onclick=()=>{historyStack=[];window.current=null;go("Start",false)};document.getElementById("back").onclick=()=>{if(historyStack.length)go(historyStack.pop(),false)};go("Start",false);</script></body></html>
